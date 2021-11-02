@@ -1,0 +1,27 @@
+{
+  "name": "commitlint-config-true-conventional-commits",
+  "version": "0.0.1",
+  "description": "A commitlint configuration that more accurately represents the Conventional Commits specification.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealWaldo/commitlint-config-true-conventional-commits.git"
+  },
+  "author": "TheRealWaldo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRealWaldo/commitlint-config-true-conventional-commits/issues"
+  },
+  "homepage": "https://github.com/TheRealWaldo/commitlint-config-true-conventional-commits#readme",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "@commitlint/lint": "^14.1.0",
+    "jest": "^27.3.1"
+  }
+}
