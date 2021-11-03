@@ -27,9 +27,10 @@ jobs:
       - name: Tests
         run: npm run test
 
-      - uses: TheRealWaldo/quick-release@v0.2.0
+      - uses: TheRealWaldo/quick-release@v0.3.0
         with:
           token: ${{ secrets.AUTO_PAT }}
           replace-files: README.md,package.json
           git-user-email: 68967746+TRW-bot@users.noreply.github.com
           assignees: TheRealWaldo
+          publish-npm: true
