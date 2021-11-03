@@ -33,4 +33,4 @@ jobs:
           replace-files: README.md,package.json
           git-user-email: 68967746+TRW-bot@users.noreply.github.com
           assignees: TheRealWaldo
-          publish-npm: true
+          npm-publish: true
