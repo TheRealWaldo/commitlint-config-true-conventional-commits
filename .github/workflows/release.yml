@@ -27,10 +27,17 @@ jobs:
       - name: Tests
         run: npm run test
 
-      - uses: TheRealWaldo/quick-release@v0.3.0
+      - name: Release
+        id: release
+        uses: TheRealWaldo/quick-release@v0.4.0
         with:
           token: ${{ secrets.AUTO_PAT }}
           replace-files: README.md,package.json
           git-user-email: 68967746+TRW-bot@users.noreply.github.com
           assignees: TheRealWaldo
-          npm-publish: true
+
+      - name: Publish
+        run: npm publish
+        if: steps.release.outputs.status == 'release'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
