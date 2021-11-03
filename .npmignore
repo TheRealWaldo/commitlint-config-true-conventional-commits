@@ -1,0 +1,6 @@
+.github
+.editorconfig
+.gitignore
+babel.config.js
+commitlint.config.js
+index.test.js
