@@ -30,7 +30,7 @@ jobs:
 
       - name: Release
         id: release
-        uses: TheRealWaldo/quick-release@v0.4.0
+        uses: TheRealWaldo/quick-release@v0.4.1
         with:
           token: ${{ secrets.AUTO_PAT }}
           replace-files: README.md,package.json
