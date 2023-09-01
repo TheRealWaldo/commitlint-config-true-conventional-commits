@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/TheRealWaldo/commitlint-config-true-conventional-commits#readme",
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^6.0.0"
+    "conventional-changelog-conventionalcommits": "^7.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.0",
