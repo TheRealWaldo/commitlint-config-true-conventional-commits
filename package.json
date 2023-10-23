@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-true-conventional-commits",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A commitlint configuration that more accurately represents the Conventional Commits specification.",
   "main": "index.js",
   "scripts": {
